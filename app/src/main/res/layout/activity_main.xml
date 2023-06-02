@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:text="Enter Credentials to Continue\nh"
+        android:background="#8527D9"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:id="@+id/directionsTA"
+        android:layout_marginLeft="70dp"
+        android:layout_marginVertical="100dp"
+        />
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginVertical="0dp"
+        android:layout_marginLeft="105.5dp"
+        android:background="#8527D9"
+        android:text="Username"
+        android:id="@+id/userNameLoginTI"
+        android:textColor="#FFFF"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginVertical="2dp"
+        android:layout_marginLeft="105.5dp"
+        android:background="#8527D9"
+        android:text="Password"
+        android:id="@+id/passwordLoginTI"
+        android:textColor="#FFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="105.5dp"
+        android:layout_marginVertical="100dp"
+        android:text="Submit"
+        android:background="#4218D3"
+
+        android:textColor="#FFFF"/>
+
+</LinearLayout>

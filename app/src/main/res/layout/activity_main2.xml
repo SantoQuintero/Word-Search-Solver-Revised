@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="92dp"
+            android:layout_marginVertical="100dp"
+            android:layout_marginLeft="70.5dp"
+            android:background="#8527D9"
+            android:text="Type Enter to input the letters and words and letters and submit once you are done. P.S. for a new row type a colon (:)"
+                android:id="@+id/directionsCustomTA"
+            android:textColor="#FFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="0dp"
+            android:layout_marginLeft="105.5dp"
+            android:background="#8527D9"
+            android:text="Word Search Letters"
+            android:id="@+id/wordSearchTI"
+            android:textColor="#FFFF"
+            android:textSize="20dp" />
+
+
+
+
+
+        <Button
+            android:id="@+id/submitLetters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Letters" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="105.5dp"
+            android:background="#8527D9"
+            android:text="Answer List Words"
+            android:id="@+id/answerWordsTI"
+            android:textColor="#FFFF"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/submitAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Answer Words" />
+        <Button
+            android:id="@+id/returnFromCustom"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="105.5dp"
+            android:layout_marginVertical="80dp"
+            android:text="Finalize"
+            android:background="#4218D3"
+            android:textColor="#FFFF"/>
+
+</LinearLayout>
