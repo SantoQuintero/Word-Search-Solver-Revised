@@ -10,56 +10,44 @@ import android.widget.EditText;
 
 import com.google.android.material.button.MaterialButton;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
 
     private static String username;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        //Creating variables
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         EditText usernameTI = (EditText) findViewById(R.id.userNameLoginTI);
-
         Button loginBTN = (Button) findViewById(R.id.login);
+
+        //Login Functionality
         loginBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 username = String.valueOf(usernameTI.getText());
+                if(username.equals("Du Best"))
+                {
+                    username = "Status: Creater... " + username;
+                }
+                else if(username.equalsIgnoreCase("vvhs"))
+                {
+                    username = "Status: Admin... " + username;
+                }
+                else username = "Status: User... " + username;
+
                 Intent intent = new Intent(MainActivity.this, MainActivity3.class);
                 startActivity(intent);
-            }
+            }//end of void
         });
-    }
-//
+    }//end of onCreate
+
+    //Getter for the username to use it in the next screen
         public static String getUsername()
         {
             return username;
-        }
-
-
-
-
-
-
-
-
-
-
-
-       // configureButton();
-
-
-    }
-//
-//    private void configureButton()
-//    {
-//        Button firstButton = (Button)findViewById(R.id.button);
-//        firstButton.setOnClickListener(new View.OnClickListener())
-//    {
-//        @Override
-//        public void onClick(View v)
-//        {
-//                finish();
-//        }
-//    });
-//    }
+        }//end of getUsername
+}//end of class

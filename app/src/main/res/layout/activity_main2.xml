@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+android:background="@drawable/better"
     tools:context=".MainActivity2">
 
 
@@ -14,7 +15,7 @@
             android:layout_marginVertical="100dp"
             android:layout_marginLeft="70.5dp"
             android:background="#8527D9"
-            android:text="Type Enter to input the letters and words and letters and submit once you are done. P.S. for a new row type a colon (:)"
+            android:text="Type Enter to input the letters and words and letters and submit once you are done. P.S. for a new row type a period (.)"
                 android:id="@+id/directionsCustomTA"
             android:textColor="#FFFF"
             android:textSize="20dp" />

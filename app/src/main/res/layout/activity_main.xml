@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/vis"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="300dp"
         android:layout_height="48dp"
-        android:text="Enter Credentials to Continue\nh"
+        android:text="Enter Credentials to Continue"
         android:background="#8527D9"
         android:textColor="#FFFF"
         android:textSize="20dp"
