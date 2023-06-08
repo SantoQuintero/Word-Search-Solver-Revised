@@ -1,3 +1,7 @@
+//background
+//https://www.google.com/url?sa=i&url=https%3A%2F%2Fpxhere.com%2Fen%2Fphoto%2F1443671&psig=AOvVaw3p6-ozPo4xDYRJOo2h4xVp&ust=1686288486848000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPD27uD4sv8CFQAAAAAdAAAAABAD
+
+
 package com.example.wordsearchsolver;
 
 import androidx.appcompat.app.AppCompatActivity;
