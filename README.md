@@ -4,6 +4,8 @@ AP Computer Science A
 
 **Date:**
 June 8, 2023
+Revised Jan. 31, 2025
+Old Comments were deleted for readability.
 
 **Description**
 A word search solver. Input the letters and answer words and it will solve the word search by capitalizing the words. 
