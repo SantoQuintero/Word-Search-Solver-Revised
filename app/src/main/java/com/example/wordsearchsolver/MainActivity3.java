@@ -41,7 +41,7 @@ public class MainActivity3 extends AppCompatActivity
         //temp = starterWS;
 
         //WordSearch starterWS = new WordSearch("csm.fds.dfn", starterWSAnswers);
-//        problemTV.setText(temp.toString());
+        //problemTV.setText(temp.toString());
         problemTV.setText(starterWS.toString());
 
         //Checks to see if returning from a custom search
